@@ -18,6 +18,11 @@
     "solid-start": "^0.2.0",
     "undici": "^5.11.0"
   },
+  "pnpm": {
+    "overrides": {
+      "solid-refresh": "lufrai/solid-refresh#fix-hot-signals"
+    }
+  },
   "engines": {
     "node": ">=16.8"
   }
